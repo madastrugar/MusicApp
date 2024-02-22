@@ -1,0 +1,90 @@
+.header {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 25%;
+    height: 150px;
+    background-color: #202020;
+    text-align: left;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.header div {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+.header svg {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #202020;
+    text-align: center;
+    color: white;
+}
+
+.yourlibrary {
+    position: fixed;
+    top: 160px;
+    left: 5px;
+    width: 25%;
+    height: 400px;
+    background-color: #202020;
+    color: white;
+    border-radius: 25px;
+}
+
+.yourlibrary svg{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.yourlibrary span{
+    margin-top: 10px;
+}
+
+.home{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 1135px;
+    height: 555px;
+    background-color: #202020;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+
+.playbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #202020;
+    text-align: center;
+    color: white;
+}
+
+.bottom_button{
+    position: fixed;
+    left:2%;
+    bottom: 4%;
+    width: 15%; 
+    height: 5%;
+    background-color: #202020;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px; 
+}
