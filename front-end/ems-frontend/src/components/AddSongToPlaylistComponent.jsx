@@ -3,7 +3,7 @@ import { listSongs } from '../services/SongService'
 import { addSongToPlaylist } from '../services/PlaylistService'
 import { useNavigate, useParams} from 'react-router-dom'
 
-const AddSongToPlaylistComponent = () => {
+const AddSongToPlaylistComponent  = () => {
 
    const [songs, setSongs] = useState([])
 
